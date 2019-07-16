@@ -1,28 +1,40 @@
+/* Reset default margin and padding properties */
 * {
     margin: 0;
     padding: 0;
 }
 
+/* Style to the navbar which contains the search form and various icons */
+.main-navbar {
+    position: fixed;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 100%;
+    background-color: white;
+    z-index: 10;
+}
+
+#hamburguer-icon {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#youtube-logo {
+    width: 100px;
+    position: absolute;
+    top: 1px;
+}
+
 .search-bar {
     width: 531px;
     height: 24px;
+    position: relative;
+    margin-left: 150px;
 }
 .main-container {
     position: relative;
     top: 70px;
     z-index: 1;
 
-}
-.main-nav {
-    position: fixed;
-    margin-bottom: 10px;
-    border-bottom: 1px solid black;
-    padding-bottom: 20px;
-    margin: 10px 15px;
-    width: 100%;
-    background-color: white;
-    z-index: 10;
-}
-.right-side {
-    float: right;
 }
