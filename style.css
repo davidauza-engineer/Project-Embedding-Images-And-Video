@@ -112,6 +112,7 @@ body {
     width: 100%;
     height: 1000px;
     background: orange;
+    border-bottom: 1px solid #777;
 }
 
 /* Style used for the text in the video container section */
@@ -151,4 +152,22 @@ body {
 /* Sytle used for the icons at the statistics section */
 .statistics-icons {
     width: 20px;
+}
+
+.square {
+    width: 130px;
+    height: 4px;
+    background-color: #777;
+    z-index: 10;
+    position: relative;
+    top: 18px;
+}
+#subscribe-button {
+    background-color: #FF0000;
+    padding: 5px;
+    float: right;
+    font-weight: bold;
+    color: white;
+    border: solid 1px #FF0000;
+    margin-right: 15px;
 }
