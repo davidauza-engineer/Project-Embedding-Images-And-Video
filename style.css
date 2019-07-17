@@ -34,7 +34,8 @@ body {
 
 /* The search bar */
 .search-bar {
-    width: 531px;
+    display: inline;
+    width: 50%;
     height: 24px;
     position: relative;
     bottom: 12px;
@@ -83,6 +84,7 @@ body {
     margin-right: 25px;
 }
 
+/*Style for the user pic*/
 #user-pic {
     width: 32px;
     position: relative;
