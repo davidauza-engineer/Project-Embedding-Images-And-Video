@@ -3,68 +3,95 @@
     margin: 0;
     padding: 0;
 }
+
+/* YouTube fonts */
 body {
     font-family: Roboto, Arial, sans-serif
 }
+
 /* Style to the navbar which contains the search form and various icons */
 .main-navbar {
+    width: 100%;
+    height: 32px;
     position: fixed;
     border-bottom: 1px solid gray;
     padding-bottom: 8px;
     padding-top: 8px;
-    width: 100%;
     background-color: white;
     z-index: 10;
-}
-.search-container {
-    width: 50px;
-    height: 34px;
-    /* width: 50px;
-    height: 32px; */
-    display: inline;
-    position: relative;
-    right: 6px;
-    bottom: 7px;
-}
-/* Div containing the search button */
-.search-button {
-    background-color: #eee; 
-    width: 50px;
-    height: 34px;
-    border: 1px solid #777;
-    position: absolute;
-}
-/* Lupa */
-#m-glass {
-    position: absolute;
-    left: 13px;
-    right: 13px;
-    top: 5px;
-    bottom: 5px;
-    width: 24px;
 }
 
 /* The hamburguer like icon at the navbar */
 #menu-icon {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 5px 20px;
 }
 
 /* The YouTube logo in the navbar */
 #youtube-logo {
-    position: absolute;
-    top: 20px;
+    position: relative;
+    bottom: 6px;
 }
 
+/* The search bar */
 .search-bar {
     width: 531px;
     height: 24px;
     position: relative;
+    bottom: 12px;
     margin-left: 150px;
 }
-.main-container {
+
+/* Container which has the search form, button and magnifying glass image */
+.search-container {
+    display: inline;
+    position: relative;
+    right: 6px;
+    bottom: 17px;
+}
+/* Search button */
+.search-button {
+    width: 50px;
+    height: 29px;
+    background-color: #eee; 
+    border: 1px solid #777;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/* Magnifying glass image */
+#m-glass {
+    width: 24px;
+    position: absolute;
+    left: 13px;
+    right: 13px;
+    top: 2px;
+    bottom: 2px;
+}
+
+/* Div used to contain the right icons in the navbar */
+.navbar-right-icons {
+    display: inline;
+    float: right;
+    margin-right: 10px;
+    position: relative;
+    bottom: 4px;
+}
+
+/* Style used for the right icons */
+.right-icons {
+    width: 24px;
+    margin-right: 25px;
+}
+
+#user-pic {
+    width: 32px;
+    position: relative;
+    top: 2px;
+}
+
+/*The style used for the main content of the page */
+.main-content {
     position: relative;
     top: 70px;
     z-index: 1;
-
 }
