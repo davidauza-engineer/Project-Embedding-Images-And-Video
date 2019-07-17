@@ -8,22 +8,23 @@
 .main-navbar {
     position: fixed;
     border-bottom: 1px solid gray;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    padding-bottom: 8px;
+    padding-top: 8px;
     width: 100%;
     background-color: white;
     z-index: 10;
 }
 
-#hamburguer-icon {
-    padding-left: 15px;
-    padding-right: 15px;
+/* The hamburguer like icon at the navbar */
+#menu-icon {
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
+/* The YouTube logo in the navbar */
 #youtube-logo {
-    width: 100px;
     position: absolute;
-    top: 1px;
+    top: 20px;
 }
 
 .search-bar {
