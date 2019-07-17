@@ -3,7 +3,9 @@
     margin: 0;
     padding: 0;
 }
-
+body {
+    font-family: Roboto, Arial, sans-serif
+}
 /* Style to the navbar which contains the search form and various icons */
 .main-navbar {
     position: fixed;
@@ -13,6 +15,33 @@
     width: 100%;
     background-color: white;
     z-index: 10;
+}
+.search-container {
+    width: 50px;
+    height: 34px;
+    /* width: 50px;
+    height: 32px; */
+    display: inline;
+    position: relative;
+    right: 6px;
+    bottom: 7px;
+}
+/* Div containing the search button */
+.search-button {
+    background-color: #eee; 
+    width: 50px;
+    height: 34px;
+    border: 1px solid #777;
+    position: absolute;
+}
+/* Lupa */
+#m-glass {
+    position: absolute;
+    left: 13px;
+    right: 13px;
+    top: 5px;
+    bottom: 5px;
+    width: 24px;
 }
 
 /* The hamburguer like icon at the navbar */
