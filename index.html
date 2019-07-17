@@ -3,6 +3,7 @@
     <head>
         <title>YouTube Like Web Page</title>
         <link href="style.css" type="text/css" rel="stylesheet">
+        <meta charset="UTF-8">
     </head>
     <body>
         <!--Top part of the web page Start -->
@@ -19,39 +20,39 @@
             <div class="navbar-right-icons">
                 <img src="images/ic_add_video.svg" alt="Create a video or post" class="right-icons">
                 <img src="images/ic_apps.svg" alt="YouTube apps" class="right-icons">
-                <img src="images/ic_share.svg" alt="Messages" class="right-icons">
+                <img src="images/ic_share_video.svg" alt="Messages" class="right-icons">
                 <img src="images/ic_notification.svg" alt="Notifications" class="right-icons">
                 <img src="images/ic_user.svg" alt="User's profile picture" width="24px" class="right-icons" id="user-pic">
             </div>
         </section>
         <!-- Top part of the web page End -->
-        <!-- Main content of the page -->
+        <!-- Main content of the page Start -->
         <main class="main-content">
-
-            <!-- Left column section -->
+            <!-- Left column section Start -->
             <section class="left-section">
-                <!--Video section-->
+                <!--Video section Start -->
                 <section class="video-container">
                     <iframe 
                         width="100%" height="90%" src="https://www.youtube.com/embed/QFxN2oDKk0E" 
                         frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                      </iframe>
-                   
-                    <h1 class="section-header">Godzilla: King of the Monsters - Final Trailer - Now Playing In Theaters</h1>
-                    <span>20,924,847 views</span><br>
+                    <h1 class="text-video-elements">Godzilla: King of the Monsters - Final Trailer - Now Playing In Theaters</h1>
+                    <p class="text-video-elements" id="visualization-number">20,924,847 views</p>
+                     <!-- Statistics Start -->
+                     <div class="statistics-container">
+                        <img src="images/ic_like.svg" alt="Like button" class="statistics-icons">
+                        <span class="statistics-text">262K</span>
+                        <img src="images/ic_dislike.svg" alt="Dislike button" class="statistics-icons">
+                        <span class="statistics-text">8K</span>
+                        <img src="images/ic_share.svg" alt="Share button" class="statistics-icons">
+                        <span class="statistics-text">SHARE</span>
+                        <img src="images/ic_add.svg" alt="Save button" class="statistics-icons">
+                        <span class="statistics-text">SAVE</span>
+                        <img src="images/ic_three_dots.svg" alt="Options" class="statistics-icons"> 
+                     </div>   
+                    <!-- Statistics End -->               
                 </section>
-                <!--Statistics section-->
-                <section>
-                    <img src="images/ic_like.png" alt="Like button">
-                    <span>262K</span>
-                    <img src="images/ic_dislike.png" alt="Dislike button">
-                    <span>8K</span>
-                    <img src="images/ic_share.png" alt="Share button">
-                    <span>Share</span>
-                    <img src="images/ic_save_1x.png" alt="Save button">
-                    <span>Save</span>
-                    <img src="images/ic_dots_1x.png" alt="">
-                </section>
+                <!--Video section End -->
                 <hr>
                 <!--Info about the publisher and video-->
                 <section>
@@ -151,6 +152,7 @@
                         </div>
                 </section>
                 <!-- Comments Section End -->
+                <!-- Left column section End-->
             </section>
             <!-- Right column section -->
             <section>
@@ -200,5 +202,6 @@
                 <!-- Thumbnails End -->
             </section>
         </main>
+        <!-- Main content of the page End -->
     </body>
 </html>

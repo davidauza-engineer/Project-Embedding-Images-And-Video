@@ -100,18 +100,55 @@ body {
     background: lightblue;
     margin: 0 auto;
 }
+
+/* Style used to the left column in the main section */
 .left-section {
     width: 75%;
     background: lightseagreen;
 }
+
+/* Style used for the container which contains the video */
 .video-container {
     width: 100%;
     height: 1000px;
     background: orange;
-
 }
 
-/* Custom h1 headers */
-.section-header {
+/* Style used for the text in the video container section */
+.text-video-elements {
+    margin-top: 15px;
+}
 
+/* Style used to the visualizations counter */
+#visualization-number {
+    color: #777;
+    display: inline;
+    position: relative;
+    top: 15px;
+    background: blue;
+}
+
+/* Style used for the statistics div container */
+.statistics-container {
+    float: right;
+    margin-right: 15px;
+    background: white;
+    position: relative;
+    top: 15px;
+}
+
+/* The text elements for the statistics */
+.statistics-text {
+    margin-right: 25px;
+    position: relative;
+    bottom: 5px;
+    color: #777;
+    font-weight: bold;
+    text-decoration: uppercase;
+    font-size: 12px;
+}
+
+/* Sytle used for the icons at the statistics section */
+.statistics-icons {
+    width: 20px;
 }
