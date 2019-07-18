@@ -172,46 +172,67 @@ body {
     top: 20px;
     background-color: aqua;
 }
-/* Styling video container  */
+
+/* Styling for the container of the description */
 .description-container {
     border-bottom: 1px solid #777;
+    background: greenyellow;
 }
-.video-description {
-    padding-left: 60px;
-    padding-right: 55%;
+
+/* Style for the text inside the description container */
+.text-description-container {
+    padding-left: 70px;
+    padding-right: 25%;
     position: relative;
-    bottom: 30px;
+    bottom: 15px;
 }
+
+/* Style for the title of the publisher of the video */
 #publisher-title {
-    font-size: 16px;
+    font-size: 14px;
 }
+
+/* Style for the publish date of the video */
+#publish-date {
+    position: relative;
+    bottom: 2px;
+}
+
+/* Style for the subscribe button */
+#subscribe-button {
+    background-color: #FF0000;
+    float: right;
+    color: white;
+    position: relative;
+    left: 210px;
+    bottom: 15px;
+    text-transform: uppercase;
+    padding: 10px 18px;
+    border: 1px solid #FF0000;
+    font-size: 14px;
+}
+
+/* Style for the category label */
+#category-label {
+    color: #777;
+}
+
+/* Style for the show less label*/
+#show-less {
+    color: #777;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+/* Style for the small tags*/
 small {
     color: #777;
 }
+
+/* Style for the links inside a span */
 span a:link {
     text-decoration: none;
     font-size: 14px;
     font-weight: bold;
     margin-left: 60px;
 }
-#show-less {
-    color: #777;
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: bold;
-}
-#subscribe-button {
-    background-color: #FF0000;
-    padding: 5px;
-    float: right;
-    font-weight: bold;
-    color: white;
-    border: solid 1px #FF0000;
-    margin-right: 15px;
-    position: relative;
-    bottom: 330px;
-    text-transform: uppercase;
-    padding: 10px;
-}
-
-
