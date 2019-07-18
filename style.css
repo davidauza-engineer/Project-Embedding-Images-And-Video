@@ -236,3 +236,45 @@ span a:link {
     font-weight: bold;
     margin-left: 60px;
 }
+.comments-statistics {
+    margin-top: 20px;
+}
+#comments-total {
+    font-weight: normal;
+    font-size: 16px;
+    display: inline;
+    margin-right: 30px;
+}
+#sort-options {
+    font-weight: normal;
+    color: #777;
+    margin-left: 5px;
+}
+#user-picture {
+    margin-right: 10px;
+
+}
+#user-comment {
+    float: right;
+    position: relative;
+    bottom: 6px;
+    width: 96%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 5px;
+    
+}
+#user-comment:focus {
+    border-bottom: 2px solid black;
+}
+form {
+    display: inline;
+}
+.user-comment-buttons {
+    display: inline;
+    float: right;
+}
+section {
+    background: white;
+}

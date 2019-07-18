@@ -10,7 +10,7 @@
         <section class="main-navbar">
             <img src="images/ic_menu.svg" alt="Display the whole YouTube menu" id="menu-icon" width="22px" height="22px">
             <img src="images/img_youtube_logo.svg" alt="YouTube logo" id="youtube-logo" width="80px">
-            <form style="display: inline;" action="" method="POST">
+            <form action="" method="POST">
                 <input class="search-bar" type="text" name="search-bar" placeholder="Search">  
                 <div class="search-container">
                     <input type="submit" value="" class="search-button">
@@ -80,16 +80,22 @@
                 <!--Info about the publisher and video End -->
                 <!-- Comments Section Start -->
                 <section>
-                    <h1 class="section-header">37,240 Comments</h1>
-                    <img src="images/ic_sort_1x.png" alt="Sort comments">
-                    <span><strong>SORT BY</strong></span>
+                    <div class="comments-statistics">
+                        <h1 id="comments-total">37,240 Comments</h1>
+                        <img src="images/ic_sort.svg" alt="Sort comments">
+                        <span id="sort-options">SORT BY</span>
+                    </div>
                     <br>
                     <br>
-                    <img src="images/ic_user_picture.png" alt="User's profile picture">
-                    <textarea rows="1" columns="50" placeholder="Add a public comment..."></textarea>
+                    <img id="user-picture" src="images/ic_user.svg" width="45px" alt="User's profile picture">
+                    <form action="" method="POST">
+                        <input id="user-comment" placeholder="Add a public comment..." type="text">
+                    </form>
                     <br>
-                    <button>CANCEL</button>
-                    <button>COMMENT</button>
+                    <div class="user-comment-buttons">
+                        <button>CANCEL</button>
+                        <button>COMMENT</button>
+                    </div>
                     <br>
                     <br>
                     <!-- An user's comment -->
