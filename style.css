@@ -167,10 +167,39 @@ body {
 /* Style for the publisher's logo */
 #publisher-logo {
     position: relative;
+    height: 100%;
+    display: inline;
     top: 20px;
+    background-color: aqua;
 }
-
-
+/* Styling video container  */
+.description-container {
+    border-bottom: 1px solid #777;
+}
+.video-description {
+    padding-left: 60px;
+    padding-right: 55%;
+    position: relative;
+    bottom: 30px;
+}
+#publisher-title {
+    font-size: 16px;
+}
+small {
+    color: #777;
+}
+span a:link {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 60px;
+}
+#show-less {
+    color: #777;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+}
 #subscribe-button {
     background-color: #FF0000;
     padding: 5px;
@@ -179,6 +208,10 @@ body {
     color: white;
     border: solid 1px #FF0000;
     margin-right: 15px;
+    position: relative;
+    bottom: 330px;
+    text-transform: uppercase;
+    padding: 10px;
 }
 
 
