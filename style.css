@@ -98,21 +98,18 @@ body {
     top: 70px;
     z-index: 1;
     width: 90%;
-    background: lightblue;
     margin: 0 auto;
 }
 
 /* Style used to the left column in the main section */
 .left-section {
     width: 75%;
-    background: lightseagreen;
 }
 
 /* Style used for the container which contains the video */
 .video-container {
     width: 100%;
     height: 562px;
-    background: orange;
     border-bottom: 1px solid #777;
 }
 
@@ -127,7 +124,6 @@ body {
     display: inline;
     position: relative;
     top: 15px;
-    background: blue;
 }
 
 /* Style used for the statistics div container */
@@ -171,13 +167,12 @@ body {
     height: 100%;
     display: inline;
     top: 20px;
-    background-color: aqua;
 }
 
 /* Styling for the container of the description */
 .description-container {
     border-bottom: 1px solid #777;
-    background: greenyellow;
+
 }
 
 /* Style for the text inside the description container */
@@ -302,7 +297,6 @@ form {
 /* Style for the info related to an user's comment */
 .user-comments-info-container {
     display: inline;
-    background-color: orange;
     position: relative;
     bottom: 22px;
     left: 10px;
@@ -333,7 +327,6 @@ form {
     position: absolute;
     left: 0;
     top: 25px;
-    background-color: yellow;
 }
 
 /* Style for the container for the options below the comment paragraph */
@@ -361,7 +354,6 @@ form {
     position: absolute;
     top: 0;
     right: 160px;
-    background-color: yellow;
     width: 400px;
 }
 
