@@ -14,7 +14,7 @@ body {
     width: 100%;
     height: 32px;
     position: fixed;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid #eee;
     padding-bottom: 8px;
     padding-top: 8px;
     background-color: white;
@@ -404,17 +404,13 @@ form {
     bottom: 15px;
 }
 
-.up-next {
-    
-}
-
 /* Div containing the next videos */
 #next-videos-container {
     position: relative;
     bottom: 10px;
     left: 2px;
     padding-bottom: 10px;
-    border-bottom: 1px solid #777;
+    border-bottom: 2px solid #eee;
 }
 
 /* Top right span/autoplay text */
@@ -433,6 +429,10 @@ form {
     position: relative;
     left: 162px;
     top: 4px;
+}
+
+.normal-thumbnail {
+    margin-top: 4px;
 }
 
 /* Custom class for all thumbnail images */
