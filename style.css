@@ -40,6 +40,7 @@ body {
     position: relative;
     bottom: 12px;
     margin-left: 150px;
+    font-size: 14px;
 }
 
 /* Container which has the search form, button and magnifying glass image */
@@ -47,7 +48,7 @@ body {
     display: inline;
     position: relative;
     right: 6px;
-    bottom: 17px;
+    bottom: 18px;
 }
 /* Search button */
 .search-button {
@@ -236,45 +237,121 @@ span a:link {
     font-weight: bold;
     margin-left: 60px;
 }
+
+/* Style for the container of the statitics for the comments section */
 .comments-statistics {
     margin-top: 20px;
 }
+
+/* Style for the header containing the total comments in the video */
 #comments-total {
     font-weight: normal;
     font-size: 16px;
     display: inline;
     margin-right: 30px;
+    position: relative;
+    bottom: 5px;
 }
+
+/* Style for the span containing the SORT BY text */
 #sort-options {
     font-weight: normal;
     color: #777;
     margin-left: 5px;
+    font-size: 14px;
+    position: relative;
+    bottom: 6px;
 }
+
+/* Style for the picture of the user in the comments section */
 #user-picture {
     margin-right: 10px;
-
 }
+
+/* Style for the text input to add a new comment */
 #user-comment {
     float: right;
     position: relative;
-    bottom: 6px;
-    width: 96%;
+    bottom: 0px;
+    width: 93%;
     border-top: none;
     border-left: none;
     border-right: none;
     padding: 5px;
-    
+    font-size: 14px;
+    font-weight: lighter;
 }
+
+/* Style to the placeholder text */
+::placeholder {
+    color: #777;
+    opacity: 1;
+    font-size: 14px;
+}
+
+/* Style for the text input to add a new comment when the users clicks on the box */
 #user-comment:focus {
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #777;
 }
+
+/* Style for the forms */
 form {
     display: inline;
 }
-.user-comment-buttons {
+
+/* Style for the info related to an user's comment */
+.user-comments-info-container {
     display: inline;
-    float: right;
+    background-color: orange;
+    position: relative;
+    bottom: 22px;
+    left: 10px;
 }
-section {
-    background: white;
+
+/* Style for the name of the user in the comments section */
+.user-name-comments {
+    font-weight: bold;
+    color: black;
+    font-size: 14px;
+}
+
+/* Style used for the comment date beside the user's name at the comments section */
+.comment-date {
+    font-size: 14px;
+    color: #777;
+}
+
+/* Style used for the comment date beside the user's name at the comments section
+  when the user hovers */
+.comment-date:hover {
+    color: black;
+}
+
+/* Stye for the paragraph containing the comments of a user */
+.comment-paragraph {
+    width: 810px;
+    position: absolute;
+    left: 0;
+    top: 25px;
+    background-color: yellow;
+}
+
+/* Style for the container for the options below the comment paragraph */
+.comments-options-container {
+    position: absolute;
+    left: 0;
+    top: 50px;
+    width: 810px;
+}
+
+/* Style for the elements below the comment paragraph */
+.comments-option {
+    display: inline;
+}
+
+.comments-option span {
+    position: relative;
+    left: 50px;
+    font-size: 120px;
+    color: blue;
 }
