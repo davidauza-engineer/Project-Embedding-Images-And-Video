@@ -349,9 +349,68 @@ form {
     display: inline;
 }
 
-.comments-option span {
+.comments-options-container span {
     position: relative;
-    left: 50px;
-    font-size: 120px;
-    color: blue;
+    left: 5px;
+    font-size: 12px;
+    color: #777;
+}
+
+/* Rigth column section */
+.right-column {
+    position: absolute;
+    top: 0;
+    right: 160px;
+    background-color: yellow;
+    width: 400px;
+}
+
+/* Div containing the next videos */
+#next-videos-container {
+    position: relative;
+    bottom: 10px;
+    left: 2px;
+}
+
+/* Top right span/autoplay text */
+#auto-play-text {
+    position: relative;
+    bottom: 10px;
+    left: 160px;
+    text-transform: uppercase;
+    color: #777;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* Top right icon / Toggle button */
+#switch-button {
+    position: relative;
+    left: 162px;
+    top: 4px;
+}
+
+/* Custom class for all thumbnail images */
+.thumbnail-image {
+    width: 190px;
+    height: 100px;
+}
+
+/* Div containing video information, right side */
+.video-text-details-container {
+    float: right;
+    display: inline;
+    margin-right: 60px;
+}
+
+/* Thumbnails titles, right column */
+.titles-right-column {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Right column /Tags:Recommended for you channel */
+.right-channel-description {
+    color: #777;
+    font-size: 14px;
 }
