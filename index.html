@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>YouTube Like Web Page</title>
         <link href="style.css" type="text/css" rel="stylesheet">
@@ -7,10 +7,10 @@
     </head>
     <body>
         <!--Top part of the web page Start -->
-        <section class="main-navbar">
-            <img src="images/ic_menu.svg" alt="Display the whole YouTube menu" id="menu-icon" width="22px" height="22px">
-            <img src="images/img_youtube_logo.svg" alt="YouTube logo" id="youtube-logo" width="80px">
-            <form action="" method="POST">
+        <div class="main-navbar">
+            <img src="images/ic_menu.svg" alt="Display the whole YouTube menu" id="menu-icon" width="22" height="22">
+            <img src="images/img_youtube_logo.svg" alt="YouTube logo" id="youtube-logo" width="80">
+            <form action="#" method="POST">
                 <input class="search-bar" type="text" name="search-bar" placeholder="Search">  
                 <div class="search-container">
                     <input type="submit" value="" class="search-button">
@@ -22,17 +22,17 @@
                 <img src="images/ic_apps.svg" alt="YouTube apps" class="right-icons">
                 <img src="images/ic_share_video.svg" alt="Messages" class="right-icons">
                 <img src="images/ic_notification.svg" alt="Notifications" class="right-icons">
-                <img src="images/ic_user.svg" alt="User's profile picture" width="24px" class="right-icons" id="user-pic">
+                <img src="images/ic_user.svg" alt="User's profile picture" width="24" class="right-icons" id="user-pic">
             </div>
-        </section>
+        </div>
         <!-- Top part of the web page End -->
         <!-- Main content of the page Start -->
         <main class="main-content">
             <!-- Left column section Start -->
-            <section class="left-section">
+            <div class="left-section">
                 <!--Video section Start -->
-                <section class="video-container">
-                    <iframe width="838" height="460" src="https://www.youtube.com/embed/QFxN2oDKk0E" frameborder="0" allow="accelerometer; 
+                <div class="video-container">
+                    <iframe width="838" height="460" src="https://www.youtube.com/embed/QFxN2oDKk0E" allow="accelerometer; 
                         autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                     </iframe>
                     <h1 class="text-video-elements">Godzilla: King of the Monsters - Final Trailer - Now Playing In Theaters</h1>
@@ -52,13 +52,13 @@
                         <div class="square"></div> 
                      </div>   
                     <!-- Statistics End -->           
-                </section>
+                </div>
                 <!--Video section End -->
                 <!--Info about the publisher and video Start -->
                 <section class="description-container">
                     <img src="https://yt3.ggpht.com/a/AGF-l7-kPuxES9-qEATZ-4UvbMJnHPnGYg5EMq8_mw=s48-mo-c-c0xffffffff-rj-k-no" alt="Warner logo" id="publisher-logo">
                     <div class="text-description-container">
-                        <h1 class="section-header" id="publisher-title">Warner Bros. Pictures</h1>
+                        <h2 id="publisher-title">Warner Bros. Pictures</h2>
                         <small id="publish-date">Published on Apr 23, 2019 </small>
                         <button id="subscribe-button">Subscribe 7.3M</button>
                         <br><br><br>
@@ -81,14 +81,14 @@
                 <!-- Comments Section Start -->
                 <section>
                     <div class="comments-statistics">
-                        <h1 id="comments-total">37,240 Comments</h1>
+                        <h2 id="comments-total">37,240 Comments</h2>
                         <img src="images/ic_sort.svg" alt="Sort comments">
                         <span id="sort-options">SORT BY</span>
                     </div>
                     <br>
                     <br>
-                    <img id="user-picture" src="images/ic_user.svg" width="40px" alt="User's profile picture">
-                    <form action="" method="POST">
+                    <img id="user-picture" src="images/ic_user.svg" width="40" alt="User's profile picture">
+                    <form action="#" method="POST">
                         <input id="user-comment" placeholder="Add a public comment..." type="text">
                     </form>
                     <br>
@@ -96,7 +96,7 @@
                     <br>
                     <!-- An user's comment Start -->
                     <div>
-                        <img src="images/ic_user_woman.svg" alt="A picture of the user who made the comment" width="40px">
+                        <img src="images/ic_user_woman.svg" alt="A picture of the user who made the comment" width="40">
                         <div class="user-comments-info-container">
                             <span class="user-name-comments">Elizabeth Doe</span>
                             <span class="comment-date">7 months ago</span>
@@ -116,7 +116,7 @@
                     <!-- An user's comment End -->
                     <!-- An user's comment Start -->
                     <div class="comment">
-                        <img src="images/ic_user_woman.svg" alt="A picture of the user who made the comment" width="40px">
+                        <img src="images/ic_user_woman.svg" alt="A picture of the user who made the comment" width="40">
                         <div class="user-comments-info-container">
                             <span class="user-name-comments">Elizabeth Doe</span>
                             <span class="comment-date">7 months ago</span>
@@ -136,7 +136,7 @@
                     <!-- An user's comment End -->
                     <!-- An user's comment Start -->
                     <div class="comment">
-                        <img src="images/ic_user_woman.svg" alt="A picture of the user who made the comment" width="40px">
+                        <img src="images/ic_user_woman.svg" alt="A picture of the user who made the comment" width="40">
                         <div class="user-comments-info-container">
                             <span class="user-name-comments">Elizabeth Doe</span>
                             <span class="comment-date">7 months ago</span>
@@ -157,14 +157,14 @@
                 </section>
                 <!-- Comments Section End -->
                 <!-- Left column section End-->
-            </section>
+            </div>
             <!-- Right column section Start -->
-            <section class="right-column">
+            <div class="right-column">
                 <!-- Text above thumbnails Start -->
                 <div class="text-above-thumbnails-container">
                   <span class="text-above-thumbnails-container">Up next</span>
                   <span id="auto-play-text">Autoplay</span>
-                  <img id="switch-button" src="images/ic_switch.svg" alt="Turn on or off Autoplay" width="40px">
+                  <img id="switch-button" src="images/ic_switch.svg" alt="Turn on or off Autoplay" width="40">
                 </div>
                 <!-- Text above thumbnails End-->
                 <!-- First Thumbnail Start -->
@@ -179,7 +179,7 @@
                 <!-- First Thumbnail End -->
                 <!-- Normal Thumbnail Start -->
                 <div class="normal-thumbnail">
-                    <img src="images/img_thumbnail_1.jpg" alt="Thumbnail of the video" width="190px" class="thumbnail-image">
+                    <img src="images/img_thumbnail_1.jpg" alt="Thumbnail of the video" width="190" class="thumbnail-image">
                     <div class="video-text-details-container">
                         <p class="titles-right-column">Cool Video</p>
                         <p class="right-channel-description">Great Channel</p>
@@ -189,7 +189,7 @@
                 <!-- Normal Thumbnail End -->
                 <!-- Normal Thumbnail Start -->
                 <div class="normal-thumbnail">
-                    <img src="images/img_thumbnail_1.jpg" alt="Thumbnail of the video" width="190px" class="thumbnail-image">
+                    <img src="images/img_thumbnail_1.jpg" alt="Thumbnail of the video" width="190" class="thumbnail-image">
                     <div class="video-text-details-container">
                         <p class="titles-right-column">Cool Video</p>
                         <p class="right-channel-description">Great Channel</p>
@@ -199,7 +199,7 @@
                 <!-- Normal Thumbnail End -->
                 <!-- Normal Thumbnail Start -->
                 <div class="normal-thumbnail">
-                    <img src="images/img_thumbnail_1.jpg" alt="Thumbnail of the video" width="190px" class="thumbnail-image">
+                    <img src="images/img_thumbnail_1.jpg" alt="Thumbnail of the video" width="190" class="thumbnail-image">
                     <div class="video-text-details-container">
                         <p class="titles-right-column">Cool Video</p>
                         <p class="right-channel-description">Great Channel</p>
@@ -209,7 +209,7 @@
                 <!-- Normal Thumbnail End -->
                 <!-- Normal Thumbnail Start -->
                 <div class="normal-thumbnail">
-                    <img src="images/img_thumbnail_1.jpg" alt="Thumbnail of the video" width="190px" class="thumbnail-image">
+                    <img src="images/img_thumbnail_1.jpg" alt="Thumbnail of the video" width="190" class="thumbnail-image">
                     <div class="video-text-details-container">
                         <p class="titles-right-column">Cool Video</p>
                         <p class="right-channel-description">Great Channel</p>
@@ -219,7 +219,7 @@
                 <!-- Normal Thumbnail End -->
                 <!-- Normal Thumbnail Start -->
                 <div class="normal-thumbnail">
-                    <img src="images/img_thumbnail_1.jpg" alt="Thumbnail of the video" width="190px" class="thumbnail-image">
+                    <img src="images/img_thumbnail_1.jpg" alt="Thumbnail of the video" width="190" class="thumbnail-image">
                     <div class="video-text-details-container">
                         <p class="titles-right-column">Cool Video</p>
                         <p class="right-channel-description">Great Channel</p>
@@ -227,7 +227,7 @@
                     </div>
                 </div>
                 <!-- Normal Thumbnail End -->
-            </section>
+            </div>
             <!-- Right column section End -->
         </main>
         <!-- Main content of the page End -->
