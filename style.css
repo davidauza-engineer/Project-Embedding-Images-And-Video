@@ -114,6 +114,16 @@ body {
     border-bottom: 1px solid #777;
 }
 
+/* Style for the iframes used */
+.iframes {
+    border: 0;
+}
+
+/* Style for the headers */
+.headers {
+    font-size: 19px;
+}
+
 /* Style used for the text in the video container section */
 .text-video-elements {
     margin-top: 15px;
