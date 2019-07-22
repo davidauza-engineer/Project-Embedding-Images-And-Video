@@ -115,7 +115,7 @@ body {
 }
 
 /* Style for the iframes used */
-.iframes {
+iframe {
     border: 0;
 }
 
@@ -441,14 +441,9 @@ form {
     top: 4px;
 }
 
+/* Style for normal thumbnails */
 .normal-thumbnail {
     margin-top: 4px;
-}
-
-/* Custom class for all thumbnail images */
-.thumbnail-image {
-    width: 160px;
-    height: 85px;
 }
 
 /* Div containing video information, right side */
