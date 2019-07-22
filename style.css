@@ -22,12 +22,12 @@ body {
 }
 
 /* The hamburguer like icon at the navbar */
-#menu-icon {
+.menu-icon {
     padding: 5px 20px;
 }
 
 /* The YouTube logo in the navbar */
-#youtube-logo {
+.youtube-logo {
     position: relative;
     bottom: 6px;
 }
@@ -61,7 +61,7 @@ body {
     left: 0;
 }
 /* Magnifying glass image */
-#m-glass {
+.m-glass {
     width: 24px;
     position: absolute;
     left: 13px;
@@ -85,8 +85,8 @@ body {
     margin-right: 25px;
 }
 
-/*Style for the user pic*/
-#user-pic {
+/* Style for the user pic */
+.user-pic {
     width: 32px;
     position: relative;
     top: 2px;
@@ -130,7 +130,7 @@ iframe {
 }
 
 /* Style used to the visualizations counter */
-#visualization-number {
+.visualization-number {
     color: #777;
     display: inline;
     position: relative;
@@ -173,7 +173,7 @@ iframe {
 }
 
 /* Style for the publisher's logo */
-#publisher-logo {
+.publisher-logo {
     position: relative;
     height: 100%;
     display: inline;
@@ -195,18 +195,18 @@ iframe {
 }
 
 /* Style for the title of the publisher of the video */
-#publisher-title {
+.publisher-title {
     font-size: 14px;
 }
 
 /* Style for the publish date of the video */
-#publish-date {
+.publish-date {
     position: relative;
     bottom: 2px;
 }
 
 /* Style for the subscribe button */
-#subscribe-button {
+.subscribe-button {
     background-color: #FF0000;
     float: right;
     color: white;
@@ -220,12 +220,12 @@ iframe {
 }
 
 /* Style for the category label */
-#category-label {
+.category-label {
     color: #777;
 }
 
 /* Style for the show less label*/
-#show-less {
+.show-less {
     color: #777;
     text-transform: uppercase;
     font-size: 14px;
@@ -250,7 +250,7 @@ span a:link {
 }
 
 /* Style for the header containing the total comments in the video */
-#comments-total {
+.comments-total {
     font-weight: normal;
     font-size: 16px;
     display: inline;
@@ -260,7 +260,7 @@ span a:link {
 }
 
 /* Style for the span containing the SORT BY text */
-#sort-options {
+.sort-options {
     font-weight: normal;
     color: #777;
     margin-left: 5px;
@@ -270,12 +270,12 @@ span a:link {
 }
 
 /* Style for the picture of the user in the comments section */
-#user-picture {
+.user-picture {
     margin-right: 10px;
 }
 
 /* Style for the text input to add a new comment */
-#user-comment {
+.user-comment {
     float: right;
     position: relative;
     bottom: 50px;
@@ -415,7 +415,7 @@ form {
 }
 
 /* Div containing the next videos */
-#next-videos-container {
+.next-videos-container {
     position: relative;
     bottom: 10px;
     left: 2px;
@@ -424,7 +424,7 @@ form {
 }
 
 /* Top right span/autoplay text */
-#auto-play-text {
+.auto-play-text {
     position: relative;
     bottom: 10px;
     left: 160px;
@@ -435,7 +435,7 @@ form {
 }
 
 /* Top right icon / Toggle button */
-#switch-button {
+.switch-button {
     position: relative;
     left: 162px;
     top: 4px;
