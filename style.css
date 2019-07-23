@@ -1,0 +1,466 @@
+/* Reset default margin and padding properties */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* YouTube fonts */
+body {
+    font-family: Roboto, Arial, sans-serif
+}
+
+/* Style to the navbar which contains the search form and various icons */
+.main-navbar {
+    width: 100%;
+    height: 32px;
+    position: fixed;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    background-color: white;
+    z-index: 10;
+}
+
+/* The hamburguer like icon at the navbar */
+.menu-icon {
+    padding: 5px 20px;
+}
+
+/* The YouTube logo in the navbar */
+.youtube-logo {
+    position: relative;
+    bottom: 6px;
+}
+
+/* The search bar */
+.search-bar {
+    display: inline;
+    width: 50%;
+    height: 24px;
+    position: relative;
+    bottom: 12px;
+    margin-left: 150px;
+    font-size: 14px;
+}
+
+/* Container which has the search form, button and magnifying glass image */
+.search-container {
+    display: inline;
+    position: relative;
+    right: 6px;
+    bottom: 18px;
+}
+/* Search button */
+.search-button {
+    width: 50px;
+    height: 29px;
+    background-color: #eee; 
+    border: 1px solid #777;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/* Magnifying glass image */
+.m-glass {
+    width: 24px;
+    position: absolute;
+    left: 13px;
+    right: 13px;
+    top: 2px;
+    bottom: 2px;
+}
+
+/* Div used to contain the right icons in the navbar */
+.navbar-right-icons {
+    display: inline;
+    float: right;
+    margin-right: 10px;
+    position: relative;
+    bottom: 4px;
+}
+
+/* Style used for the right icons */
+.right-icons {
+    width: 24px;
+    margin-right: 25px;
+}
+
+/* Style for the user pic */
+.user-pic {
+    width: 32px;
+    position: relative;
+    top: 2px;
+}
+
+/*The style used for the main content of the page */
+.main-content {
+    position: relative;
+    top: 70px;
+    z-index: 1;
+    width: 96%;
+    margin: 0 auto;
+    height: 1600px;
+}
+
+/* Style used to the left column in the main section */
+.left-section {
+    width: 68%;
+}
+
+/* Style used for the container which contains the video */
+.video-container {
+    width: 100%;
+    height: 552px;
+    border-bottom: 1px solid #777;
+}
+
+/* Style for the iframes used */
+iframe {
+    border: 0;
+}
+
+/* Style for the headers */
+.headers {
+    font-size: 19px;
+}
+
+/* Style used for the text in the video container section */
+.text-video-elements {
+    margin-top: 15px;
+}
+
+/* Style used to the visualizations counter */
+.visualization-number {
+    color: #777;
+    display: inline;
+    position: relative;
+    top: 15px;
+}
+
+/* Style used for the statistics div container */
+.statistics-container {
+    float: right;
+    margin-right: 15px;
+    background: white;
+    position: relative;
+    top: 15px;
+}
+
+/* The text elements for the statistics */
+.statistics-text {
+    margin-right: 25px;
+    position: relative;
+    bottom: 5px;
+    color: #777;
+    font-weight: bold;
+    text-decoration: uppercase;
+    font-size: 12px;
+}
+
+/* Sytle used for the icons at the statistics section */
+.statistics-icons {
+    width: 20px;
+}
+
+/* Style for the square used to put a thicker line above the line that divides the video section */
+.square {
+    width: 130px;
+    height: 2px;
+    background-color: #777;
+    z-index: 10;
+    position: relative;
+    top: 10px;
+}
+
+/* Style for the publisher's logo */
+.publisher-logo {
+    position: relative;
+    height: 100%;
+    display: inline;
+    top: 20px;
+}
+
+/* Styling for the container of the description */
+.description-container {
+    border-bottom: 1px solid #777;
+
+}
+
+/* Style for the text inside the description container */
+.text-description-container {
+    padding-left: 70px;
+    padding-right: 25%;
+    position: relative;
+    bottom: 15px;
+}
+
+/* Style for the title of the publisher of the video */
+.publisher-title {
+    font-size: 14px;
+}
+
+/* Style for the publish date of the video */
+.publish-date {
+    position: relative;
+    bottom: 2px;
+}
+
+/* Style for the subscribe button */
+.subscribe-button {
+    background-color: #FF0000;
+    float: right;
+    color: white;
+    position: relative;
+    left: 210px;
+    bottom: 15px;
+    text-transform: uppercase;
+    padding: 10px 18px;
+    border: 1px solid #FF0000;
+    font-size: 14px;
+}
+
+/* Style for the category label */
+.category-label {
+    color: #777;
+}
+
+/* Style for the show less label*/
+.show-less {
+    color: #777;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+/* Style for the small tags*/
+small {
+    color: #777;
+}
+
+/* Style for the links inside a span */
+span a:link {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 60px;
+}
+
+/* Style for the container of the statitics for the comments section */
+.comments-statistics {
+    margin-top: 20px;
+}
+
+/* Style for the header containing the total comments in the video */
+.comments-total {
+    font-weight: normal;
+    font-size: 16px;
+    display: inline;
+    margin-right: 30px;
+    position: relative;
+    bottom: 5px;
+}
+
+/* Style for the span containing the SORT BY text */
+.sort-options {
+    font-weight: normal;
+    color: #777;
+    margin-left: 5px;
+    font-size: 14px;
+    position: relative;
+    bottom: 6px;
+}
+
+/* Style for the picture of the user in the comments section */
+.user-picture {
+    margin-right: 10px;
+}
+
+/* Style for the text input to add a new comment */
+.user-comment {
+    float: right;
+    position: relative;
+    bottom: 50px;
+    width: 93%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+/* Style to the placeholder text */
+::placeholder {
+    color: #777;
+    opacity: 1;
+    font-size: 14px;
+}
+
+/* Style for the text input to add a new comment when the users clicks on the box */
+#user-comment:focus {
+    border-bottom: 2px solid #777;
+}
+
+/* Style for the forms */
+form {
+    display: inline;
+}
+
+/* Style for the info related to an user's comment */
+.user-comments-info-container {
+    display: inline;
+    position: relative;
+    bottom: 22px;
+    left: 10px;
+}
+
+/* Style for the name of the user in the comments section */
+.user-name-comments {
+    font-weight: bold;
+    color: black;
+    font-size: 14px;
+}
+
+/* Style used for the comment date beside the user's name at the comments section */
+.comment-date {
+    font-size: 14px;
+    color: #777;
+}
+
+/* Style used for the comment date beside the user's name at the comments section
+  when the user hovers */
+.comment-date:hover {
+    color: black;
+}
+
+/* Stye for the paragraph containing the comments of a user */
+.comment-paragraph {
+    width: 810px;
+    position: absolute;
+    left: 0;
+    top: 25px;
+}
+
+/* Style for the container for the options below the comment paragraph */
+.comments-options-container {
+    position: absolute;
+    left: 0;
+    top: 50px;
+    width: 810px;
+}
+
+/* Style for the elements below the comment paragraph */
+.comments-options {
+    display: inline;
+    width: 16px;
+}
+
+/* Style for the span elements inside the comments options container */
+.comments-options-container span {
+    position: relative;
+    left: 2px;
+    bottom: 2px;
+    font-size: 14px;
+    color: #777;
+}
+
+/* Style for the dislike button at the comments section */
+.dislike-button {
+    padding-left: 16px;
+}
+
+/*Style for the reply option in the comments section */
+.reply-option {
+    padding-left: 16px;
+    font-weight: normal;
+}
+
+/*Style for the reply option in the comments section when the user hovers */
+.reply-option:hover {
+    color: black;
+}
+
+/* Style used for the view replies span in the comments section */
+.view-replies {
+    font-weight: bold;
+    position: relative;
+    top: 60px;
+    left: 44px;
+    font-size: 14px;
+}
+
+/* Style used for the down arrow beside the view replies span */
+.down-arrow {
+    position: absolute;
+    top: 75px;
+    left: 90px;
+}
+
+/* Style for the comments made by the YouTube users */
+.comment {
+    padding-top: 60px;
+}
+
+/* Rigth column section */
+.right-column {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 365px;
+}
+
+/* Style for the text above the thumbnails */
+.text-above-thumbnails-container {
+    position: relative;
+    bottom: 15px;
+}
+
+/* Div containing the next videos */
+.next-videos-container {
+    position: relative;
+    bottom: 10px;
+    left: 2px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #eee;
+}
+
+/* Top right span/autoplay text */
+.auto-play-text {
+    position: relative;
+    bottom: 10px;
+    left: 160px;
+    text-transform: uppercase;
+    color: #777;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* Top right icon / Toggle button */
+.switch-button {
+    position: relative;
+    left: 162px;
+    top: 4px;
+}
+
+/* Style for normal thumbnails */
+.normal-thumbnail {
+    margin-top: 4px;
+}
+
+/* Div containing video information, right side */
+.video-text-details-container {
+    float: right;
+    display: inline;
+    margin-right: 60px;
+}
+
+/* Thumbnails titles, right column */
+.titles-right-column {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Right column /Tags:Recommended for you channel */
+.right-channel-description {
+    color: #777;
+    font-size: 14px;
+}
